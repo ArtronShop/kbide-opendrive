@@ -1,0 +1,16 @@
+{
+  "name": "opendrive",
+  "title" : "OpenDrive",
+  "keywords": "OpenDrive, OpenKB",
+  "description": "ปลั๊กอินสำหรับใช้งานกับบร์ด OpenDrive",
+  "homepage": "https://www.ioxhop.com/",
+  "license": "MIT",
+  "git": "https://github.com/maxpromer/ESP-NOW_Arduino",
+  "author": "Sonthaya Nongnuch",
+  "email": "max30012540@hotmail.com",
+  "url": "https://www.ioxhop.com/",
+  "version": "1.0.0",
+  "board" : "",
+  "platform": ["arduino-esp32"],
+  "image" : "/static/cover.png"
+}
