@@ -2,7 +2,7 @@
   "name": "opendrive",
   "title" : "OpenDrive",
   "keywords": "OpenDrive, OpenKB",
-  "description": "ปลั๊กอินสำหรับใช้งานกับบร์ด OpenDrive",
+  "description": "ปลั๊กอินสำหรับใช้งานกับบอร์ด OpenDrive",
   "homepage": "https://www.ioxhop.com/",
   "license": "MIT",
   "git": "https://github.com/ioxhop/kbide-opendrive/",
