@@ -2,19 +2,19 @@ Blockly.Blocks['opendrive_setup'] = {
     init: function() {
         this.appendDummyInput()
             .appendField("OpenDrive setup at 1: (A :")
-            .appendField(new Blockly.FieldDropdown([["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["19","19"], ["23","23"]]), "IN1A")
+            .appendField(new Blockly.FieldDropdown([["23","23"], ["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["19","19"]]), "IN1A")
             .appendField(", B :")
-            .appendField(new Blockly.FieldDropdown([["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["19","19"], ["23","23"]]), "IN1B")
+            .appendField(new Blockly.FieldDropdown([["OUT2","27"], ["OUT1","26"], ["DAC1","25"], ["18","18"], ["19","19"], ["23","23"]]), "IN1B")
             .appendField("), 2 : (A :")
-            .appendField(new Blockly.FieldDropdown([["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["19","19"], ["23","23"]]), "IN2A")
+            .appendField(new Blockly.FieldDropdown([["19","19"], ["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["23","23"]]), "IN2A")
             .appendField(", B :")
-            .appendField(new Blockly.FieldDropdown([["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["18","18"], ["19","19"], ["23","23"]]), "IN2B")
+            .appendField(new Blockly.FieldDropdown([["18","18"], ["OUT1","26"], ["OUT2","27"], ["DAC1","25"], ["19","19"], ["23","23"]]), "IN2B")
             .appendField(")");
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Config pin connect between OpenDrive and OpenKB");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
 };
 
@@ -29,8 +29,8 @@ Blockly.Blocks['opendrive_move_forward'] = {
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Move car forward with fix time");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
 };
 
@@ -45,8 +45,8 @@ Blockly.Blocks['opendrive_move_backward'] = {
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Move car backward with fix time");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
 };
 
@@ -60,8 +60,8 @@ Blockly.Blocks['opendrive_move'] = {
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Move car forward/backward/left/right");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
   };
 
@@ -75,8 +75,8 @@ Blockly.Blocks['opendrive_move_wheel'] = {
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Move car with fix wheel speed");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
   };
 
@@ -87,7 +87,7 @@ Blockly.Blocks['opendrive_stop'] = {
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
         this.setColour(120);
-        this.setTooltip("");
-        this.setHelpUrl("");
+        this.setTooltip("Car stop moving");
+        this.setHelpUrl("https://opendrive.ioxhop.info/program/kbide");
     }
   };
