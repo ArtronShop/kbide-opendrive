@@ -72,16 +72,16 @@ Blockly.JavaScript['opendrive_move'] = function(block) {
         `;
     } else if (dropdown_move == 3) { // turn left
         code = `
-        ledcWrite(${ledc_ch[0]}, (100 - ${number_power}) / 100.0 * 1023.0);
+        ledcWrite(${ledc_ch[0]}, 1023);
         ledcWrite(${ledc_ch[1]}, 1023);
-        ledcWrite(${ledc_ch[2]}, 1023);
-        ledcWrite(${ledc_ch[3]}, (100 - ${number_power}) / 100.0 * 1023.0);
+        ledcWrite(${ledc_ch[2]}, (100 - ${number_power}) / 100.0 * 1023.0);
+        ledcWrite(${ledc_ch[3]}, 1023);
         `;
     } else if (dropdown_move == 4) { // turn right
         code = `
-        ledcWrite(${ledc_ch[0]}, 1023);
-        ledcWrite(${ledc_ch[1]}, (100 - ${number_power}) / 100.0 * 1023.0);
-        ledcWrite(${ledc_ch[2]}, (100 - ${number_power}) / 100.0 * 1023.0);
+        ledcWrite(${ledc_ch[0]}, (100 - ${number_power}) / 100.0 * 1023.0);
+        ledcWrite(${ledc_ch[1]}, 1023);
+        ledcWrite(${ledc_ch[2]}, 1023);
         ledcWrite(${ledc_ch[3]}, 1023);
         `;
     }
