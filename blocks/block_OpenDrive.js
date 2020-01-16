@@ -37,7 +37,7 @@ Blockly.Blocks['opendrive_move_forward'] = {
 Blockly.Blocks['opendrive_move_backward'] = {
     init: function() {
         this.appendDummyInput()
-            .appendField("move forward at power")
+            .appendField("move backward at power")
             .appendField(new Blockly.FieldNumber(50, 0, 100, 1), "power")
             .appendField("% for ")
             .appendField(new Blockly.FieldNumber(1, 0), "time")
